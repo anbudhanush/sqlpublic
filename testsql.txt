@@ -1,3 +1,8 @@
 create view v1
 as
-select name from [dbo].dummytable 
+select name from [dbo].dummytable; 
+
+create procedure dbo.testproc
+as Select 1 ;
+
+
